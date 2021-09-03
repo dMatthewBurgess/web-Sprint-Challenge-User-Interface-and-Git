@@ -202,4 +202,8 @@ footer nav a {
 }
 .bottomBoxes{
     display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    flex-grow:1;
 }
