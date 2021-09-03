@@ -71,7 +71,9 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.topImg{
+    align-items: center;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -145,33 +147,59 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.boxes{
+    width:100%;
+    height:50px;
+    
+}
+
 .boxOne{
     background-color:teal;
+    margin:5px;
 }
 .boxTwo{
     background-color:gold;
+    margin:5px;
 }
 .boxThree{
     background-color:cadetblue;
+    margin:5px;
 }
 .boxFour{
     background-color:coral;
+    margin:5px;
 }
 .boxFive{
     background-color:crimson;
+    margin:5px;
 }
 .boxSix{
     background-color:forestgreen;
+    margin:5px;
 }
 .boxSeven{
     background-color:darkorchid;
+    margin:5px;
 }
 .boxEight{
     background-color:hotpink;
+    margin:5px;
 }
 .boxNine{
     background-color:indigo;
+    margin:5px;
 }
 .boxTen{
     background-color:dodgerblue;
+    margin:5px;
+}
+.topBoxes{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    flex-grow:1;
+}
+.bottomBoxes{
+    display:flex;
 }
