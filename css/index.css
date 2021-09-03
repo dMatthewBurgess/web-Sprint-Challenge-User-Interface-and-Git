@@ -72,7 +72,6 @@ p {
 
 a{
     text-decoration: none;
-    
     color: black;
     padding: 1em 1.5em;
   
@@ -82,6 +81,10 @@ a{
 
 .topNavBar{
     text-decoration: none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items:baseline;
 }
 .container {
     width: 800px;
@@ -250,4 +253,7 @@ footer nav a {
     align-items:flex-start;
     justify-content: space-evenly;
     
+}
+.rowFour{
+    padding-bottom:20px;
 }
