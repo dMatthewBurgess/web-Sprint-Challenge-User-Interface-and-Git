@@ -49,6 +49,8 @@ table {
 
 * {
     box-sizing: border-box;
+    box-sizing: 100%;
+
     
 }
 
@@ -68,7 +70,15 @@ p {
 }
 /*Start CSS*/
 
-
+a{
+    text-decoration: none;
+    
+    color: black;
+    padding: 1em 1.5em;
+  
+  
+  
+}
 
 .topNavBar{
     text-decoration: none;
@@ -228,11 +238,8 @@ footer nav a {
     padding-bottom: 20px;
     margin-top: 20px;
     border-bottom: 1px dashed black;
-    
-    
-   
-    
-    
+    align-items:flex-start;
+    justify-content: space-evenly;
 }
 .rowThree{
     display:flex;
@@ -240,4 +247,7 @@ footer nav a {
     margin-top:20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    
 }
