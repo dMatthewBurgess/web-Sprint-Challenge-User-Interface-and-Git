@@ -49,6 +49,9 @@ table {
 
 * {
     box-sizing: border-box;
+    box-sizing: 100%;
+
+    
 }
 
 html, body {
@@ -65,12 +68,35 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/*Start CSS*/
 
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1em 1.5em;
+  
+  
+  
+}
+
+.topNavBar{
+    text-decoration: none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items:baseline;
+}
+.topSplash{
+    display:flex;
+    justify-content:center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+.topImg{
+    align-items: center;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +169,104 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.boxes{
+    width:100%;
+    height:50px;
+    
+}
+
+.boxOne{
+    background-color:teal;
+    margin:5px;
+}
+.boxTwo{
+    background-color:gold;
+    margin:5px;
+}
+.boxThree{
+    background-color:cadetblue;
+    margin:5px;
+}
+.boxFour{
+    background-color:coral;
+    margin:5px;
+}
+.boxFive{
+    background-color:crimson;
+    margin:5px;
+}
+.boxSix{
+    background-color:forestgreen;
+    margin:5px;
+}
+.boxSeven{
+    background-color:darkorchid;
+    margin:5px;
+}
+.boxEight{
+    background-color:hotpink;
+    margin:5px;
+}
+.boxNine{
+    background-color:indigo;
+    margin:5px;
+}
+.boxTen{
+    background-color:dodgerblue;
+    margin:5px;
+}
+.topBoxes{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    flex-grow:1;
+}
+.bottomBoxes{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    flex-grow:1;
+}
+
+
+
+/*About Page*/
+.rowOne{
+    display:flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction:column;
+}
+.rowTwo{
+    display:flex;
+    flex-direction:row;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px dashed black;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+.rowThree{
+    display:flex;
+    padding-bottom:20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    
+}
+.rowFour{
+    padding-bottom:20px;
+}
+.aboutSplash{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
 }
